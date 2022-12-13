@@ -1,5 +1,5 @@
-name=str(input("please enter  your name"))
-family=str(input("please enter  your family"))
+name=input("please enter  your name")
+family=input("please enter  your family")
 lesson1=float(input("please enter  first lesson"))
 lesson2=float(input("please enter second lesson"))
 lesson3=float(input("please enter third lesson"))
