@@ -25,5 +25,8 @@ if op=="*":
     result=a*b
 if op=="/":
     b=int(input("please enter another number: ")) 
+if b==0:
+    result="error"
+if b!=0:
     resulte=a/b
 print(result)
