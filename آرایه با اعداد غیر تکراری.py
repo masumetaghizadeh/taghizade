@@ -1,10 +1,4 @@
 import random
-numbers = []
-def getUniqueRandom(start, end):
-    while True:
-        i = random.randrange(start, end)
-        if i not in numbers:
-            return i
-for n in range(10):
-    i = getUniqueRandom(1, 60)
-    numbers.append(i)
+n=int(input("Please specify the length of the array"))
+numbers=random.sample(range(0,n),n)   
+print(numbers)
