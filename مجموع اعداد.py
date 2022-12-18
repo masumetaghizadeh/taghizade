@@ -2,7 +2,7 @@ sum=0
 i=0  #شمارنده
 c=0   
 while True:
-    a=input("please enter number: ")
+    a=input("please enter number\nTo exit and print the sum of input numbers, type exit5")
     
     if a=="exit":
         print(sum)
